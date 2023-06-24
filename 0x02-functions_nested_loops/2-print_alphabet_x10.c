@@ -11,6 +11,7 @@ void print_alphabet_x10(void)
 	char letter;
 
 	int i;
+
 	i = 0;
 	while (i < 10)
 	{
