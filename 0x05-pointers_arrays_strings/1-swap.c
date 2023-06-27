@@ -2,16 +2,16 @@
 
 /**
 * swap_int - swaps the values of two integers
-* @m : swap integers
-* @n : swap integers
+* @a : swap integers
+* @b : swap integers
 */
 
-void swap_int(int *m, int *n)
+void swap_int(int *a, int *b)
 
 {
-	int p;
+	int m;
 
-	p = *m;
-	*m = *n;
-	*n = m;
+	m = *a;
+	*a = *b;
+	*b = m;
 }
