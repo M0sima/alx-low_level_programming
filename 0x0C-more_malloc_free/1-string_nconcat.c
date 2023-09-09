@@ -5,7 +5,7 @@
  * *string_nconcat - concatenates n bytes of a string to another string
  * @s1: string
  * @s2: string to concatenate from
- * @n: number of bytes 
+ * @n: number of bytes
  * Return: pointer to the resulting string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -42,4 +42,3 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	return (s);
 }
-
